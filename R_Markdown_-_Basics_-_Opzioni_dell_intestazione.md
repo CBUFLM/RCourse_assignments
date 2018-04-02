@@ -4,7 +4,10 @@ Markdown - Basics - Opzioni dell'intestazione
 -   [Introduzione](#introduzione)
     -   [R, Markdown, R Markdown...?](#r-markdown-r-markdown...)
     -   [File R Markdown](#file-r-markdown)
-    -   [](#section)
+-   [Intestazione file R Markdown e sue opzioni](#intestazione-file-r-markdown-e-sue-opzioni)
+    -   [Creare un nuovo file](#creare-un-nuovo-file)
+    -   [Selezionare le opzioni di output (aka: che documento vogliamo)](#selezionare-le-opzioni-di-output-aka-che-documento-vogliamo)
+    -   [L'intestazione (o *header*)](#lintestazione-o-header)
 
 Introduzione
 ------------
@@ -25,15 +28,42 @@ Un file .Rmd non è altro che un file di testo con al suo interno tre diverse ti
 
 ![Struttura\_file\_rmd](Struttura_file_rmd.png)
 
-1.  Un'intestazione (o *header*) che fornisce le informazioni sul file e la sua struttura, necessarie durante la conversione da .Rmd ad altri formati (come vedremo più avanti). È racchiuso fra due stringhe di `---`
+1.  Un'intestazione che fornisce le informazioni sul file e la sua struttura, necessarie durante la conversione da .Rmd ad altri formati (come vedremo più avanti). È racchiuso fra due stringhe di `---`
 
 2.  Semplice testo
 
 3.  Codice scritto in R<sup id="a4">[4](#f4)</sup>, racchiuso fra due stringhe di ```` ``` ````. Su Windows, questo carattere si ottiene utilizzando la combinazione di tasti `ALT` + `9` e `6` del tastierino numerico
 
-In questo tutorial ci occuperemo di analizzare soltanto uno dei tre contenuti, cioé l'intestazione.
+Nel tutorial ci occuperemo di analizzare soltanto il primo di questi tre contenuti.
 
-### 
+Intestazione file R Markdown e sue opzioni
+------------------------------------------
+
+### Creare un nuovo file
+
+Diamo per scontato il settaggio della directory di lavoro e compagnia. Per creare un nuovo file .Rmd è possibile seguire due diversi metodi:
+
+-   Utilizzando la barra dei menù, seguendo il percorso *File*, *New file* e selezionando l'opzione *R Markdown*
+
+![New\_file2](New_file2.png)
+
+-   Utilizzando la barra degli strumenti, cliccando sull'icona più a sinistra e scorrendo nel menù a tendina fino a selezionare l'opzione *R Markdown*
+
+![New\_file](New_file.png)
+
+### Selezionare le opzioni di output (aka: che documento vogliamo)
+
+Si apre una finestra ( *wizard* ) che ci offre la possibilità di inserire il titolo del documento, il nome dell'autore e scegliere il formato in cui verrà convertito il file .rmd una volta finito di compilarlo. Comodo, piuttosto che scrivere tutto a mano (ma ci arriveremo...). Per ora ci occuperemo dei tre formati più semplici ed utilizzati:
+
+![Output\_options](Output_options.png)
+
+### L'intestazione (o *header*)
+
+Abbiamo già visto com'è fatto un file .rmd, occupiamoci finalmente dell'intestazione:
+
+![header](header.png)
+
+Cominciamo col dire che, sebbene RStudio dia in automatico la possibilità di inserirla, l'intestazione è una parte del file totalmente facoltativa: si può perciò cancellarla senza ripercussioni (*cosa che noi **NON** faremo*).
 
 #### Note
 
@@ -43,4 +73,4 @@ In questo tutorial ci occuperemo di analizzare soltanto uno dei tre contenuti, c
 
 <i id="f3">3.</i> Linguaggio basato su marcatori *(tags)*, serve a rappresentare la struttura di un testo: fa capire alla macchina qual è il titolo principale, quali sono gli elenchi, le tabelle e così via utilizzando i tags. Checché ne possiate pensare, markdown è uno dei linguaggi più ***semplici***.[↩](#a3)
 
-<i id="f4">4.</i> N.B. RStudio permette di lavorare con più di un linguaggio di programmazione.[↩](#a4)
+<i id="f4">4.</i> RStudio permette di lavorare con più di un linguaggio di programmazione.[↩](#a4)
