@@ -23,7 +23,7 @@ Il tutorial non è scritto in aramaico antico e siamo tutti abbastanza intellige
 
 Un file .Rmd non è altro che un file di testo con al suo interno tre diverse tipologie di contenuti: 
 
-![Struttura_file_rmd](Struttura_file_rmd.png)
+![Struttura_file_rmd](Screenshots/Struttura_file_rmd.png)
 
 1. Un'intestazione che fornisce le informazioni sul file e la sua struttura, necessarie durante la conversione da .Rmd ad altri formati (come vedremo più avanti). È racchiuso fra due stringhe di `---`
 
@@ -40,23 +40,23 @@ Diamo per scontato il settaggio della directory di lavoro e compagnia. Per crear
 
 * Utilizzando la barra dei menù, seguendo il percorso _File_, _New file_ e selezionando l'opzione _R Markdown_
 
-![New_file2](New_file2.png)
+![New_file2](Screenshots/New_file2.png)
 
 * Utilizzando la barra degli strumenti, cliccando sull'icona più a sinistra e scorrendo nel menù a tendina fino a selezionare l'opzione _R Markdown_
 
-![New_file](New_file.png)
+![New_file](Screenshots/New_file.png)
 
 ### Selezionare le opzioni di output (aka: che documento vogliamo)
 
 Si apre una finestra ( _wizard_ ) che ci offre la possibilità di inserire il titolo del documento, il nome dell'autore e scegliere il formato in cui verrà convertito il file .rmd una volta finito di compilarlo. Comodo, piuttosto che scrivere tutto a mano (ma ci arriveremo...). Per ora ci occuperemo dei tre formati più semplici ed utilizzati:
 
-![Output_options](Output_options.png)
+![Output_options](Screenshots/Output_options.png)
 
 ### L'intestazione (o _header_)
 
 Abbiamo già visto com'è fatto un file .rmd, occupiamoci finalmente dell'intestazione:
 
-![header](header.png)
+![header](Screenshots/header.png)
 
 Cominciamo col dire che, sebbene RStudio dia in automatico la possibilità di inserirla, l'intestazione è una parte del file totalmente facoltativa: si può perciò cancellarla senza ripercussioni (_cosa che noi **NON** faremo_). 
 
