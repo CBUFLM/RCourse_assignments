@@ -141,17 +141,17 @@ In questo caso è stata aggiunta l'opzione `toc`, *(table of content)*, con valo
 Approfondimenti
 ===============
 
-[Introduzione ad RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)
-[Struttura di un file RMarkdown](https://rmarkdown.rstudio.com/lesson-2.html)
-[Generalità sui blocchi di metadati (pandoc, YAML)](http://pandoc.org/MANUAL.html#metadata-blocks)
-[Output ed opzioni](https://rmarkdown.rstudio.com/lesson-9.html)
-[Qualche info sulla libreria *knitr*](https://yihui.name/knitr/)
-[Approfondimenti su *knitr* ed RStudio](http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html)
-[Alcune delle opzioni più comuni generate da pandoc](http://pandoc.org/MANUAL.html#variables-set-by-pandoc)
-[Documento github (trovate anche gli altri formati di output cambiando il link)](https://rmarkdown.rstudio.com/github_document_format.html)
-[Date counting in informatica](https://en.wikipedia.org/wiki/System_time)
-[La data e il tempo su R (non solo nell'header)](https://www.stat.berkeley.edu/~s133/dates.html)
-[Interessante corso su R e Github (se non vi registrate consiglio di leggere le trascrizioni dei video)](https://www.coursera.org/learn/reproducible-templates-analysis)
+[Introduzione ad RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)  
+[Struttura di un file RMarkdown](https://rmarkdown.rstudio.com/lesson-2.html)  
+[Generalità sui blocchi di metadati (pandoc, YAML)](http://pandoc.org/MANUAL.html#metadata-blocks)  
+[Output ed opzioni](https://rmarkdown.rstudio.com/lesson-9.html)  
+[Qualche info sulla libreria *knitr*](https://yihui.name/knitr/)  
+[Approfondimenti su *knitr* ed RStudio](http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html)  
+[Alcune delle opzioni più comuni generate da pandoc](http://pandoc.org/MANUAL.html#variables-set-by-pandoc)  
+[Documento github (trovate anche gli altri formati di output cambiando il link)](https://rmarkdown.rstudio.com/github_document_format.html)  
+[Date counting in informatica](https://en.wikipedia.org/wiki/System_time)  
+[La data e il tempo su R (non solo nell'header)](https://www.stat.berkeley.edu/~s133/dates.html)  
+[Interessante corso su R e Github (se non vi registrate consiglio di leggere le trascrizioni dei video)](https://www.coursera.org/learn/reproducible-templates-analysis)  
 
 #### Note
 
